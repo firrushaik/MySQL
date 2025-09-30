@@ -1,0 +1,52 @@
+Data : Data is a collection of information .
+
+DBMS: DBMS Stands for Data Base Management  System. It is a software used to store and access data in a secured way .
+
+Database : Data base is a collection of data.
+there are two types of databases.
+
+1) Relational database
+2) Non relational database
+
+1) Relational database : In relational database the data can be stored in tablular formate. It contains rows and columns.
+
+ name       age     course
+
+ firdose     00      MySQL
+ shaik       00      MySQL
+
+        here there are two rows and three columns. Table header should not be count into rows.
+
+Table header should not be count into rows.
+
+column: Inside one column all the data should be same data type. for example text , int , float etc.
+       name
+
+eg:  firdose
+      shaik
+      syed
+
+
+Row: Inside one row the data can be different .
+
+      name       age     course
+
+eg: firdose       00      MySQL
+
+
+* ) SQL data types:
+ 
+Integer : It stores integer data . eg: 10, 20, 30, etc
+Float   : It stores the float values. eg: 10.05 , 2.8 etc
+VarChar : It stores the single line of text.
+Text    : To stores multiple line of text.
+Data    : To stores date . eg: 2- sep- 2025
+Time    : To stores time . eg: 9:05
+DateTime:To stores data and time. eg: 2-3-2025T9:08
+Boolean :To stored true or false values .
+Blob    : To stores images.
+
+2) Non relational database: Non-relational databases the data can be stored like key-value pairs, documents, graphs, and wide-column stores.
+
+eg: Elastic search , MongoDB , Redis , Casandra.
+
