@@ -1,0 +1,13 @@
+Data: Data is a collection of information.
+
+A database is a structured collection of data that is stored in an electronic device. The data can be text, video, image or any other format.
+
+
+DBMS:  DBMS stands for Data Base Management System . It is a software used to store and access data in sequred way.
+
+DBMS is a software system that manages, stores, and retrieves data efficiently in a structured format.
+
+It allows users to create, update, and query databases efficiently.
+Ensures data integrity, consistency, and security across multiple users and applications.
+Reduces data redundancy and inconsistency through centralized control.
+Supports concurrent data access, transaction management, and automatic backups.
