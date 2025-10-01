@@ -35,3 +35,9 @@ DESC mysql_learning.Player;
 * It is a query to fetch the data:
 
 SELECT*FROM tableName;
+
+
+* Insert the data:
+
+INSERT INTO tableName(column1,column2,column3...)
+value(value1,value2...);
