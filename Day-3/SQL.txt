@@ -1,0 +1,37 @@
+SQL: SQL stands for Structured Query Language. It is not a programming language, It is a query language.
+It is also called as SEQUEL. Which means Structured Query Language.
+Structured is nothing but Syntax. 
+It is a declarative language.
+
+* SQL operations:
+
+CRUD operaions in SQL.
+C stands for CREATE
+R stands for RETRIEVE
+U stands for update
+D stands for DELETE
+
+
+1) CREATE: INSERT is a command used to store the data.
+
+CREATE TABLE tableName(
+    columnName1 datatype,
+    columnName2 datatype,
+    columnName3 datatype
+);
+
+Example:
+
+CREATE TABLE mysql_learning.Player(
+name VARCHAR(250),
+age INTEGER,
+score INTEGER
+);
+
+TO SHOW THE DATA:
+
+DESC mysql_learning.Player; 
+
+* It is a query to fetch the data:
+
+SELECT*FROM tableName;
