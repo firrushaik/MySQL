@@ -1,0 +1,57 @@
+Create a table for Employee:
+
+Step1:
+
+CREATE TABLE mysql_learning.employee(
+employee_id INTEGER,
+name TEXT,
+salary INTEGER
+);
+
+step2:
+
+To check table is created or not for this command:
+
+DESC mysql_learning.employee;
+
+
+step3:
+
+Insert the values in table:
+
+
+INSERT INTO mysql_learning.employee(
+employee_id,
+name,
+salary
+)VALUES(
+1,
+'Madhu',
+15000
+),
+(
+2,
+'Vishnu',
+20000
+),
+(
+3,
+'Raju',
+16000
+),
+(
+4,
+'Shalini',
+20000
+),
+(
+5,
+'Geetha',
+13000
+);
+
+step4:
+
+Display table:
+
+SELECT*FROM mysql_learning.employee;
