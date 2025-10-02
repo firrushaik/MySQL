@@ -1,0 +1,36 @@
+Create a new table in database:
+
+CREATE TABLE table_name(
+    C1 t1,
+    C2 t2,
+    C3 t3,
+    .
+    .
+    .
+    Cn tn
+);
+
+here C represents the ColumnName and t represents the DataType.
+
+
+INSERT A NEW ROW IN THE GIVEN TABLE:
+
+Columns           values
+
+C1       ->         V1
+C2       ->         V2
+C3       ->         V3
+
+
+Syntax:
+INSERT INTO table_name(
+    C1 , C2, ......
+)VALUES(
+    v1, v2 , ...
+),
+(
+    V1 , v2, ....
+),
+(
+    V1, V2, ....
+);
