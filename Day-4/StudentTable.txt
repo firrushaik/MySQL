@@ -1,0 +1,29 @@
+Creating a table:
+
+CREATE TABLE mysql_learning.students(
+name VARCHAR(20),
+date_of_birth DATE,
+address TEXT
+);
+
+Insert values:
+
+INSERT INTO mysql_learning.students(
+name,
+date_of_birth,
+address
+)
+VALUES(
+"John",
+"2025-10-2",
+"kadapa"
+),
+(
+"rock",
+"2025-2-5",
+"kadapa"
+);
+
+
+show table:
+SELECT * FROM mysql_learning.students;
