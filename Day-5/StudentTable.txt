@@ -1,0 +1,22 @@
+Creating a student table:
+
+CREATE TABLE mysql_learning.student4
+(
+name VARCHAR(50),
+percentage INT,
+scholarship_amount INT
+);
+
+
+* Insert values in table:
+
+INSERT INTO mysql_learning.student4
+(name,
+percentage,
+scholarship_amount
+)
+VALUEs
+("Ramesh" , 82 , 10000),
+("Mahesh" , 85 , 11000),
+("Suresh" , 86 , 12000),
+("Rajesh" , 90 , 17000);
