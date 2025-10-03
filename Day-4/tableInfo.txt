@@ -1,0 +1,45 @@
+How to insert multiple values in table:
+
+syntax:
+
+INSERT INTO table_name
+    (c1 , c2 , c3 , ....., cn)
+VALUES
+(v1 , v2 , ....,vn),
+(v1 , v2 , .....,vn),
+(v1 , v2 , ...., vn);
+
+example:
+
+INSERT INTO Player
+(name, age , socre)
+VALUES
+("Sam",39,35),
+("John" , 47 , 35);
+
+* To display display table:
+
+SELECT * FROM player;
+
+for example I want particular column in the table. We use below command to get:
+
+syntax:
+
+SELECT column1 FROM player;
+
+example:
+SELECT name FROM player;
+
+
+I want two columns we use this to get:
+
+SELECT name , age FROM player;
+
+* I want particular row : 
+
+SELECT * FROM player WHERE row;
+
+example:
+
+SELECT name FROM player WHERE name="John";
+
