@@ -1,0 +1,63 @@
+SELECT * FROM mysql_learning.student4;
+
+
+name        percentage      scholarship_amount
+
+Ramesh         82               10000
+Mahesh         85               11000
+Suresh         86               12000
+Rajesh         90               17000
+
+
+UPDATE table_name
+SET c1 = v1
+WHERE condition;
+
+
+IF UPDATE COMMAND IS NOT WORKING WE HAVE TO USE THE BELOW COMMAND:
+SET SQL_SAFE_UPDATES = 0;
+
+AFTER THAT IT WILL UPADATE THE VALE.
+
+UPDATE mysql_learning.student4
+SET percentage = 90
+WHERE name="Suresh";
+
+name        percentage      scholarship_amount
+
+Ramesh         82               10000
+Mahesh         85               11000
+Suresh         90               12000
+Rajesh         90               17000
+
+
+UPDATE mysql_learning.student4
+SET name="Ram"
+WHERE name="Suresh";
+
+
+name        percentage      scholarship_amount
+
+Ramesh         82               10000
+Mahesh         85               11000
+Ram            90               12000
+Rajesh         90               17000
+
+
+
+UPDATE mysql_learning.student4
+SET scholarship_amount=4000
+WHERE name="Ram";
+
+
+name        percentage      scholarship_amount
+
+Ramesh         82               10000
+Mahesh         85               11000
+Ram            90               4000
+Rajesh         90               17000
+
+
+
+
+

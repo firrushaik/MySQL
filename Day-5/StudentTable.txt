@@ -20,3 +20,16 @@ VALUEs
 ("Mahesh" , 85 , 11000),
 ("Suresh" , 86 , 12000),
 ("Rajesh" , 90 , 17000);
+
+
+* To get a table:
+
+SELECT * FROM mysql_learning.student4;
+
+
+name        percentage      scholarship_amount
+
+Ramesh         82               10000
+Mahesh         85               11000
+Suresh         86               12000
+Rajesh         90               17000
