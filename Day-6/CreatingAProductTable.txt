@@ -1,0 +1,62 @@
+Creating a product table:
+
+CREATE TABLE mysql_learning.product
+(
+name VARCHAR(150),
+category VARCHAR(100),
+price INTEGER,
+brand VARCHAR(100),
+rating FLOAT
+);
+
+
+* Insert values in table:
+
+INSERT INTO mysql_learning.product
+(
+name,
+category,
+price,
+brand,
+rating
+)
+VALUES
+( "Blue Shirt","clothing",750,"denim",3.8),
+( "Blue jeans","clothing",800,"puma",3.6),
+( "Blue jeans","clothing",750,"denim",4.5),
+( "Blue Shirt","clothing",1000,"puma",4.3),
+( "chocolate cake","food",25,"britania",3.7),
+( "strawberry cake","food",60,"cadbury",4.1),
+( "chocolate cake","food",60,"cadbury",2.5),
+( "strawberry cake","food",10,"britania",4.6),
+( "smart watch","gadgets",17000,"apple",4.9),
+( "smart cam","gadgets",2600,"realme",4.7),
+( "smart TV","gadgets",40000,"sony",4.0),
+( "Bourbon Small"," Food", 10, "Britannia", 3.4),
+( "Bourbon Special ","Food ",15 ,"Britannia" ,4.6),
+("Bourbon With Extra Cookies"," Food ",30," Britannia", 4.5),
+("White Shirt ","Clothing ",700 ,"Denim" ,4.3),
+("Black Shirt ","Clothing" ,600 ,"Puma" ,4.6),
+( "Black TShirt"," Clothing", 600 ,"Roadster", 4.7),
+( "Black TShirt", "Clothing" ,600 ,"Roadster", 4.2),
+( "White TShirt ","Clothing ",700 ,"Levi's" ,4.0),
+( "Blue TShirt ","Clothing", 600 ,"Nike", 4.7),
+( "Realme Smart Band", "Gadgets" ,3000 ,"Realme" ,4.6),
+( "Raw Cashew ","Food" ,370 ,"Absa", 3.9),
+( "Cashew Nuts" ,"Food" ,550 ,"Upcrop" ,4.3),
+( "Chocolate Cashew", "Food" ,670 ,"Urban Platter" ,3.5),
+( "Potato Chips Indiaʼs Magic Masala" ,"Food" ,42, "Lay's" ,4.4),
+( "Banana Chips ","Food" ,550 ,"Calicut Kerala" ,4.3),
+( "Potato Chips Cream & onion", "Food" ,63, "Lay's" ,4.5),
+( "Potato Chips Classic Salted" ,"Food" ,45 ,"Lay's" ,4.0),
+( "Harry Potter and the Philosopher's Stone" ,"Novel", 222 ,null,4.7),
+( "Harry Potter and the Chamber of Secrets" ,"Novel", 343 ,null,4.4),
+( "Harry Potter and the Prisoner of Azkaban" ,"Novel" ,284, null,4.2),
+( "Harry Potter and the Goblet of Fire" ,"Novel", 431,null ,4.6),
+(" OnePlus 6T", "Smartphone", 32990, "OnePlus" ,4.5),
+( "Redmi k20" ,"Smartphone" ,24999 ,"Redmi" ,4.5);
+
+* Get a table:
+
+SELECT * FROM mysql_learning.product;
+
