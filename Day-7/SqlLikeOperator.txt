@@ -1,4 +1,5 @@
-The SQL LIKE Operator
+The SQL LIKE Operator:
+
 The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
 
 There are two wildcards often used in conjunction with the LIKE operator:
@@ -77,12 +78,18 @@ Return all customers that starts with "a" and are at least 3 characters in lengt
 SELECT * FROM Customers
 WHERE CustomerName LIKE 'a__%';
 
+5) Without Wildcard:
+
+If no wildcard is specified, the phrase has to have an exact match to return a result.
+
+Example
+Return all customers from Spain:
+
+SELECT * FROM Customers
+WHERE Country LIKE 'Spain';
 
 
-
-
-
-* The _ Wildcard:
+6) The _ Wildcard:
 
 The _ wildcard represents a single character.
 It can be any character or number, but each _ represents one, and only one, character.
