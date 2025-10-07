@@ -1,0 +1,38 @@
+1) Getting a table:
+
+SELECT * FROM mysql_learning.product;
+
+2) rating greater than 4.5
+
+SELECT * FROM mysql_learning.product WHERE rating >= 4.5;
+
+3) price is less than or equal to 1000
+
+SELECT * FROM mysql_learning.product WHERE price <= 1000;
+
+4) brand is puma
+
+SELECT * FROM mysql_learning.product  WHERE brand LIKE "puma";
+
+5) Category is exactly food;
+
+SELECT * FROM mysql_learning.product  WHERE category LIKE "food";
+
+6) name containing "cake";
+
+SELECT * FROM mysql_learning.product WHERE name LIKE "%cake%";
+
+7)name ends-with "t-shirt":
+
+SELECT * FROM mysql_learning.product WHERE name LIKE "%T-shirt";
+
+8)name contains "chips":
+
+SELECT * FROM mysql_learning.product WHERE name LIKE "%chips%";
+
+9)category contains exactly 4 characters:
+
+SELECT * FROM mysql_learning.product WHERE category LIKE "%____%";
+
+
+
