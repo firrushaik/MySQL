@@ -1,0 +1,31 @@
+SQL Logical Operators:
+
+In SQL there are three logical operators,
+
+1) Logical AND 
+2) Logical OR 
+3) Logical NOT
+
+1. AND Operator:
+
+The AND operator is used to combine two or more conditions in an SQL query. It returns records only when all conditions specified in the query are true. This operator is commonly used when filtering data that must satisfy multiple criteria simultaneously.
+
+Example:
+
+Retrieve the records of employees from the employees table who are located in 'Allahabad' and belong to 'India', ensuring that both conditions are met.
+
+Query:
+
+SELECT * FROM employee WHERE emp_city = 'Allahabad' AND emp_country = 'India';
+
+2. SQL OR Operator:
+
+The SQL OR operator is used to combine multiple conditions in a WHERE clause or a HAVING clause. It allows us to retrieve rows that meet at least one of the specified conditions. If any of the conditions joined by the OR operator are true for a row, that row will be included in the result set.
+
+Example:
+
+The following query fetches the ID, Name and Salary of the customers whose salary is greater than 2000 or age is less than 25 years.
+
+SELECT ID, NAME, SALARY FROM CUSTOMERS WHERE SALARY > 2000 OR age < 25;
+
+
