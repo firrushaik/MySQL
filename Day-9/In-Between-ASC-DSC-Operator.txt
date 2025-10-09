@@ -1,0 +1,72 @@
+1) SQL IN Operator:
+
+The SQL IN operator is used to specify multiple values in a WHERE clause. It allows you to check if a value exists within a set of values.
+
+The IN operator is an efficient alternative to using multiple OR conditions and is frequently used to filter results based on a specific list of values.
+
+Syntax:
+
+SELECT column1, column2, ...
+FROM table_name
+WHERE column_name IN (value1, value2, ...);
+
+Example:
+
+SELECT * FROM mysql_learning.product
+WHERE brand IN("denim","puma","sony");
+
+Example:
+
+SELECT * FROM mysql_learning.product
+WHERE rating IN(3.8,4,2.5);
+
+2) SQL BETWEEN OPERATOR:
+
+          The SQL BETWEEN operator is used to filter the result set within a specific range. It is often used with WHERE clauses to select values within a range, such as numbers, dates, or text.
+The BETWEEN operator is inclusive, meaning it includes the boundary values.
+
+Syntax:
+
+The basic syntax of the 'BETWEEN' operator is as follows:
+
+SELECT column_name(s)
+FROM table_name
+WHERE column_name BETWEEN value1 AND value2;
+
+
+Example:
+
+SELECT * FROM mysql_learning.product
+WHERE rating BETWEEN 3 AND 4;
+
+SELECT * FROM mysql_learning.product
+WHERE price BETWEEN 200 AND 1000;
+
+3) ORDERED BY OPERATOR:
+
+The SQL ORDER BY:
+
+The ORDER BY keyword is used to sort the result-set in ascending or descending order.
+
+Syntax:
+
+SELECT column1, column2, ...
+FROM table_name
+ORDER BY column1, column2, ... ASC|DESC;
+
+Example:
+
+SELECT * FROM mysql_learning.product
+ORDER BY rating;
+
+default order is ascending.
+
+SELECT * FROM mysql_learning.product
+ORDER BY price;
+
+
+* ASC , DSC:
+
+SELECT * FROM mysql_learning.product
+ORDER BY price , rating DESC;
+
