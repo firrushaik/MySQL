@@ -1,0 +1,32 @@
+SQL-LIMIT-OPERATOR:
+
+The LIMIT clause in SQL is used to control the number of rows returned in a query result.
+It is particularly useful when working with large datasets, allowing us to retrieve only the required number of rows for analysis or display.
+
+When working with large datasets, it’s rarely practical to retrieve all rows at once. 
+That’s where LIMIT and OFFSET come in. These two simple yet powerful SQL clauses allow you to control how many rows to display and where to start from, making your queries faster, cleaner, and easier to work with.
+
+
+
+Syntax:
+
+SELECT * FROM table_NAME 
+LIMIT (NUMBER);
+
+Syntax of LIMIT with OFFSET:
+
+SELECT column1, column2
+FROM table_name
+ORDER BY column
+LIMIT number_of_rows OFFSET number_to_skip;
+
+Example:
+
+SELECT * FROM mysql_learning.product
+LIMIT  2;
+
+
+SELECT * FROM mysql_learning.product
+ORDER BY price DESC  LIMIT 10 ;
+
+
