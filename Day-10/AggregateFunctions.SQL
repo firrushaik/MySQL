@@ -12,9 +12,9 @@ AVG() - returns the average value of a numerical column
 
 1) The SQL MIN() and MAX() Functions:
 
-        The MIN() function returns the smallest value of the selected column.
+The MIN() function returns the smallest value of the selected column.
 
-        The MAX() function returns the largest value of the selected column.
+The MAX() function returns the largest value of the selected column.
 
 MIN Example:
 
@@ -35,7 +35,7 @@ FROM Products;
 
 The COUNT() function returns the number of rows that matches a specified criterion.
 
-Example:
+COUNT() Example:
 
 Find the total number of rows in the Products table:
 
@@ -46,7 +46,7 @@ FROM Products;
 
 The SUM() function returns the total sum of a numeric column.
 
-Example:
+SUM() Example:
 
 Return the sum of all Quantity fields in the OrderDetails table:
 
@@ -57,7 +57,7 @@ FROM OrderDetails;
 
 The AVG() function returns the average value of a numeric column.
 
-Example:
+AVG() Example:
 
 Find the average price of all products:
 
