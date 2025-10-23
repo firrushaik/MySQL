@@ -53,6 +53,7 @@ WHERE name="Ram";
 name        percentage      scholarship_amount
 
 Ramesh         82               10000
+
 Mahesh         85               11000
 Ram            90               4000
 Rajesh         90               17000

@@ -43,3 +43,9 @@ example:
 
 SELECT name FROM player WHERE name="John";
 
+* WHERE:
+      The WHERE clause specifies a condition that has to be satisfied for retrieving the data from a database.
+
+SELECT * FROM player WHERE name="Ram";
+
+

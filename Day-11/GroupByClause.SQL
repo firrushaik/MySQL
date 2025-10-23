@@ -18,3 +18,5 @@ FROM table_name
 WHERE condition
 GROUP BY column1, column2;
 
+
+

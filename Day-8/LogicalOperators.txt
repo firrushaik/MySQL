@@ -28,4 +28,13 @@ The following query fetches the ID, Name and Salary of the customers whose salar
 
 SELECT ID, NAME, SALARY FROM CUSTOMERS WHERE SALARY > 2000 OR age < 25;
 
+3. SQL NOT Operator:
+
+The SQL NOT operator used to negate a condition. It returns true if the specified condition is false and false if the condition is true. The NOT operator is commonly used to perform negative or inverse filtering in SQL queries.
+
+Example:
+
+In the following query, we are retrieving the customers whose salary is not greater than 2000.
+
+SELECT * FROM CUSTOMERS WHERE NOT (SALARY > 2000.00);
 
