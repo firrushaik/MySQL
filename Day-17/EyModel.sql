@@ -96,3 +96,8 @@ When more than one element of an entity is associated with more than one element
 
 For example, you can assign an employee to many projects and a project can have many employees.
 
+
+
+Mapping from ER Model to Relational Model
+Last Updated : 03 Nov, 2025
+Converting an Entity-Relations, hip (ER) diagram to a Relational Model is a crucial step in database design. The ER model represents the conceptual structure of a database, while the Relational Model is a physical representation that can be directly implemented using a Relational Database Management System (RDBMS) like Oracle or MySQL
