@@ -100,5 +100,13 @@ For example, you can assign an employee to many projects and a project can have 
 
 Mapping from ER Model to Relational Model:
 
-Last Updated : 03 Nov, 2025
 Converting an Entity-Relations, hip (ER) diagram to a Relational Model is a crucial step in database design. The ER model represents the conceptual structure of a database, while the Relational Model is a physical representation that can be directly implemented using a Relational Database Management System (RDBMS) like Oracle or MySQL
+
+
+Key EY SQL Model Concepts to Prepare:
+
+ER Modeling – Designing normalized tables with PK/FK relationships.
+Joins & Aggregations – INNER, LEFT, RIGHT joins, GROUP BY, HAVING.
+Analytical Functions – RANK(), DENSE_RANK(), ROW_NUMBER().
+Subqueries & CTEs – For modular, readable queries.
+Data Cleaning – Handling NULL, duplicates, and type conversions.
