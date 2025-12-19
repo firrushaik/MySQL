@@ -110,7 +110,10 @@ Joins & Aggregations – INNER, LEFT, RIGHT joins, GROUP BY, HAVING.
 Analytical Functions – RANK(), DENSE_RANK(), ROW_NUMBER().
 
 Subqueries & CTEs – For modular, readable queries.
-Data Cleaning – Handling NULL, duplicates, and type conversions.
+
+
+
+
 
 
 
