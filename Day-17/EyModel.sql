@@ -111,6 +111,14 @@ Analytical Functions – RANK(), DENSE_RANK(), ROW_NUMBER().
 
 Subqueries & CTEs – For modular, readable queries.
 
+Key EY SQL Model Concepts to Prepare:
+
+ER Modeling – Designing normalized tables with PK/FK relationships.
+Joins & Aggregations – INNER, LEFT, RIGHT joins, GROUP BY, HAVING.
+Analytical Functions – RANK(), DENSE_RANK(), ROW_NUMBER().
+
+Subqueries & CTEs – For modular, readable queries.
+
 
 
 
