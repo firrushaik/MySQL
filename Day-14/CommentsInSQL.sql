@@ -29,6 +29,3 @@ Example
 of all the records
 in the Customers table:*/
 SELECT * FROM Customers;
-
-
-2
