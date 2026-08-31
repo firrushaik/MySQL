@@ -71,7 +71,6 @@ bankName VARCHAR(100) DEFAULT "SBI"
 
 
 
-
 CREATE TABLE mysql_learning.bank1
 (
 accountNumber INTEGER Primary key,
